@@ -1,5 +1,6 @@
 using AppRosario.Data;
 using AppRosario.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace AppRosario.Repository
 {
