@@ -2,13 +2,14 @@ using System.ComponentModel.DataAnnotations;
 
 namespace AppRosario.Models
 {
-    public class UserModel
+    public class User
     {
-        public int IdUser { get; set; }
-        [Required, MaxLength(128)]
+        [Key]
+        public int Id { get; set; }
+        [Required]
         public string Name { get; set; }
         [Required]
-        public DateTime Birthdate { get; set; }
+        public DateOnly Birthdate { get; set; }
         [Required, MaxLength(128)]
         public string Email {get; set; }
     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dalva\\Desktop\\AppRosario\\AppRosario.csproj": {}
+    "c:\\Users\\Dalva\\Desktop\\AppRosario\\AppRosario.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dalva\\Desktop\\AppRosario\\AppRosario.csproj": {
+    "c:\\Users\\Dalva\\Desktop\\AppRosario\\AppRosario.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dalva\\Desktop\\AppRosario\\AppRosario.csproj",
+        "projectUniqueName": "c:\\Users\\Dalva\\Desktop\\AppRosario\\AppRosario.csproj",
         "projectName": "AppRosario",
-        "projectPath": "C:\\Users\\Dalva\\Desktop\\AppRosario\\AppRosario.csproj",
+        "projectPath": "c:\\Users\\Dalva\\Desktop\\AppRosario\\AppRosario.csproj",
         "packagesPath": "C:\\Users\\Dalva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dalva\\Desktop\\AppRosario\\obj\\",
+        "outputPath": "c:\\Users\\Dalva\\Desktop\\AppRosario\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dalva\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
