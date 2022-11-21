@@ -1,4 +1,6 @@
+using AppRosario.Data;
 using AppRosario.Repository;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +10,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddEntityFrameworkNpgsql()
+    .AddDbContext<AppRosarioContext>(options => options.UseNpgsql("Host=localhost; Port=5432; Pooling=true; Database=Rosário; User Id=postgres; Password= initial1234;"));
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 

@@ -11,6 +11,6 @@ namespace AppRosario.Models
         [Required]
         public DateOnly Birthdate { get; set; }
         [Required, MaxLength(128)]
-        public string Email {get; set; }
+        public string Email {get; set; }        
     }
 }

@@ -22,12 +22,7 @@ namespace AppRosario.Repository
         {
             return await _context.Users.Where(iduser => iduser.Id == id).FirstOrDefaultAsync();
         }
-
-        public void Delete(User user)
-        {
-            _context.Remove(user);
-        }
-
+        
         public async Task<bool> SaveChangesAsync()
         {
             return await _context.SaveChangesAsync() > 0;

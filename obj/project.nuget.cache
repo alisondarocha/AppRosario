@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PyJjzVJsC9Kth2l8ILKkG/1m28hcpykWo+/j6QZ5WcjD976KM5aLfqNDjNNfBkuqP7yKnlMTTJhNJh36vnbhrQ==",
+  "dgSpecHash": "2o8Ky0Tdx2cDzbxohEOe9EhvDGbNvJwbnkMD2Qcb9OqCRD+mClAvbaadNoaa2Cj4e8DuKR3jhF3R4RA8CfrT5Q==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Dalva\\Desktop\\AppRosario\\AppRosario.csproj",
+  "projectFilePath": "C:\\Users\\Dalva\\Desktop\\AppRosario\\AppRosario.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dalva\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Dalva\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
@@ -10,6 +10,7 @@
     "C:\\Users\\Dalva\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.0\\microsoft.entityframeworkcore.analyzers.7.0.0.nupkg.sha512",
     "C:\\Users\\Dalva\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.0\\microsoft.entityframeworkcore.design.7.0.0.nupkg.sha512",
     "C:\\Users\\Dalva\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.0\\microsoft.entityframeworkcore.relational.7.0.0.nupkg.sha512",
+    "C:\\Users\\Dalva\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.0\\microsoft.entityframeworkcore.tools.7.0.0.nupkg.sha512",
     "C:\\Users\\Dalva\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Dalva\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Dalva\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
