@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dalva\\Desktop\\AppRosario\\AppRosario.csproj": {}
+    "c:\\Users\\Dalva\\Desktop\\RosaryCrusadeAPI\\RosaryCrusadeAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dalva\\Desktop\\AppRosario\\AppRosario.csproj": {
+    "c:\\Users\\Dalva\\Desktop\\RosaryCrusadeAPI\\RosaryCrusadeAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dalva\\Desktop\\AppRosario\\AppRosario.csproj",
-        "projectName": "AppRosario",
-        "projectPath": "C:\\Users\\Dalva\\Desktop\\AppRosario\\AppRosario.csproj",
+        "projectUniqueName": "c:\\Users\\Dalva\\Desktop\\RosaryCrusadeAPI\\RosaryCrusadeAPI.csproj",
+        "projectName": "RosaryCrusadeAPI",
+        "projectPath": "c:\\Users\\Dalva\\Desktop\\RosaryCrusadeAPI\\RosaryCrusadeAPI.csproj",
         "packagesPath": "C:\\Users\\Dalva\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dalva\\Desktop\\AppRosario\\obj\\",
+        "outputPath": "c:\\Users\\Dalva\\Desktop\\RosaryCrusadeAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dalva\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.0, )"

@@ -1,8 +1,8 @@
 {
   "Version": 1,
   "Hash": "wg42cbxnNV938gSZos4XKsyYVUnXSMY7wUSt95cA8Mw=",
-  "Source": "AppRosario",
-  "BasePath": "_content/AppRosario",
+  "Source": "RosaryCrusadeAPI",
+  "BasePath": "_content/RosaryCrusadeAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

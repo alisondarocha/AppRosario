@@ -1,5 +1,5 @@
-using AppRosario.Data;
-using AppRosario.Repository;
+using RosaryCrusadeAPI.Data;
+using RosaryCrusadeAPI.Repository;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,7 +12,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddEntityFrameworkNpgsql()
-    .AddDbContext<AppRosarioContext>(options => options.UseNpgsql("Host=localhost; Port=5432; Pooling=true; Database=Rosário; User Id=postgres; Password= initial1234;"));
+    .AddDbContext<RosaryCrusadeAPIContext>(options => options.UseNpgsql("Host=localhost; Port=5432; Pooling=true; Database=Rosário; User Id=postgres; Password= initial1234;"));
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 
@@ -23,7 +23,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
-}   
+}
 
 app.UseHttpsRedirection();
 

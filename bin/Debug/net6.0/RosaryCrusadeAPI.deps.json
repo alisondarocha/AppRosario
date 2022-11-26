@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "AppRosario/1.0.0": {
+      "RosaryCrusadeAPI/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore.Design": "7.0.0",
@@ -15,7 +15,7 @@
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
-          "AppRosario.dll": {}
+          "RosaryCrusadeAPI.dll": {}
         }
       },
       "Humanizer.Core/2.14.1": {
@@ -321,7 +321,7 @@
     }
   },
   "libraries": {
-    "AppRosario/1.0.0": {
+    "RosaryCrusadeAPI/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

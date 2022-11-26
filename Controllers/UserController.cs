@@ -1,9 +1,9 @@
-using AppRosario.Models;
-using AppRosario.Repository;
+using RosaryCrusadeAPI.Models;
+using RosaryCrusadeAPI.Repository;
 using Microsoft.AspNetCore.Mvc;
 
 
-namespace AppRosario.Controllers
+namespace RosaryCrusadeAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
@@ -27,7 +27,7 @@ namespace AppRosario.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetUser (int id)
+        public async Task<IActionResult> GetUser(Guid id)
         {
             var user = await _repository.Get(id);
             return user != null

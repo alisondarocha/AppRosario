@@ -1,13 +1,13 @@
-using AppRosario.Models;
+using RosaryCrusadeAPI.Models;
 
-namespace AppRosario.Repository
+namespace RosaryCrusadeAPI.Repository
 {
     public interface IUserRepository
     {
-        void Register (User user);
+        void Register(User user);
 
-        Task <User> Get(int id);
-        
+        Task<User> Get(Guid id);
+
         Task<bool> SaveChangesAsync();
     }
 }

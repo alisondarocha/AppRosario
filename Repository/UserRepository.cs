@@ -1,14 +1,14 @@
-using AppRosario.Data;
-using AppRosario.Models;
+using RosaryCrusadeAPI.Data;
+using RosaryCrusadeAPI.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace AppRosario.Repository
+namespace RosaryCrusadeAPI.Repository
 {
     public class UserRepository : IUserRepository
     {
-        private readonly AppRosarioContext _context;
-        
-        public UserRepository(AppRosarioContext context)
+        private readonly RosaryCrusadeAPIContext _context;
+
+        public UserRepository(RosaryCrusadeAPIContext context)
         {
             _context = context;
         }
@@ -18,11 +18,11 @@ namespace AppRosario.Repository
             _context.Add(user);
         }
 
-        public async Task<User> Get(int id)
+        public async Task<User> Get(Guid id)
         {
             return await _context.Users.Where(iduser => iduser.Id == id).FirstOrDefaultAsync();
         }
-        
+
         public async Task<bool> SaveChangesAsync()
         {
             return await _context.SaveChangesAsync() > 0;

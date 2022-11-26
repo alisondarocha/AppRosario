@@ -1,14 +1,14 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using AppRosario.Models;
+using RosaryCrusadeAPI.Models;
 
-namespace AppRosario.Data
+namespace RosaryCrusadeAPI.Data
 {
-    public class AppRosarioContext : DbContext
+    public class RosaryCrusadeAPIContext : DbContext
     {
-        public DbSet<User> Users { get; set;}
+        public DbSet<User> Users { get; set; }
 
-        public AppRosarioContext(DbContextOptions<AppRosarioContext> options) : base(options)
+        public RosaryCrusadeAPIContext(DbContextOptions<RosaryCrusadeAPIContext> options) : base(options)
         {
 
         }
