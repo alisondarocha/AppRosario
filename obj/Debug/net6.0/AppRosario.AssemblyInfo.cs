@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("AppRosario")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("RosaryCrusadeAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("AppRosario")]
-[assembly: System.Reflection.AssemblyTitleAttribute("AppRosario")]
+[assembly: System.Reflection.AssemblyProductAttribute("RosaryCrusadeAPI")]
+[assembly: System.Reflection.AssemblyTitleAttribute("RosaryCrusadeAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
