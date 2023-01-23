@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "AppRosario": {
+    "RosaryCrusadeAPI": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
