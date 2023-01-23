@@ -10,7 +10,7 @@ namespace RosaryCrusadeAPI.Data
 
         public RosaryCrusadeAPIContext(DbContextOptions<RosaryCrusadeAPIContext> options) : base(options)
         {
-
+                
         }
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iGOirB9jQLVP1fW6QarSEAE0NWVXEKkXKMnJJYViAZTGBIYc998QRznhI/1L/RUUgPAKoBnVM9HLY5dOvqJ2Iw==",
+  "dgSpecHash": "D0MaAtScPR2YTTekGp3Y+Dp1T5VgEn0ZKTqrJoS6Wn+fEdmcjOwK/uVTgMTqgoQfwCArNFjmzMoJ+uUIWWx3uw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Dalva\\Desktop\\RosaryCrusadeAPI\\RosaryCrusadeAPI.csproj",
+  "projectFilePath": "C:\\Users\\Dalva\\Desktop\\RosaryCrusadeAPI\\RosaryCrusadeAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dalva\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Dalva\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

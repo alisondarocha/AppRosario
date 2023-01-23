@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Dalva\\Desktop\\RosaryCrusadeAPI\\RosaryCrusadeAPI.csproj": {}
+    "C:\\Users\\Dalva\\Desktop\\RosaryCrusadeAPI\\RosaryCrusadeAPI.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Dalva\\Desktop\\RosaryCrusadeAPI\\RosaryCrusadeAPI.csproj": {
+    "C:\\Users\\Dalva\\Desktop\\RosaryCrusadeAPI\\RosaryCrusadeAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Dalva\\Desktop\\RosaryCrusadeAPI\\RosaryCrusadeAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Dalva\\Desktop\\RosaryCrusadeAPI\\RosaryCrusadeAPI.csproj",
         "projectName": "RosaryCrusadeAPI",
-        "projectPath": "c:\\Users\\Dalva\\Desktop\\RosaryCrusadeAPI\\RosaryCrusadeAPI.csproj",
+        "projectPath": "C:\\Users\\Dalva\\Desktop\\RosaryCrusadeAPI\\RosaryCrusadeAPI.csproj",
         "packagesPath": "C:\\Users\\Dalva\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Dalva\\Desktop\\RosaryCrusadeAPI\\obj\\",
+        "outputPath": "C:\\Users\\Dalva\\Desktop\\RosaryCrusadeAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dalva\\AppData\\Roaming\\NuGet\\NuGet.Config"

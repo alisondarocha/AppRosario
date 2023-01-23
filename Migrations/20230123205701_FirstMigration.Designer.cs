@@ -12,8 +12,8 @@ using RosaryCrusadeAPI.Data;
 namespace RosaryCrusadeAPI.Migrations
 {
     [DbContext(typeof(RosaryCrusadeAPIContext))]
-    [Migration("20221124021345_initialCreate")]
-    partial class initialCreate
+    [Migration("20230123205701_FirstMigration")]
+    partial class FirstMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -31,8 +31,8 @@ namespace RosaryCrusadeAPI.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<DateOnly>("Birthdate")
-                        .HasColumnType("date");
+                    b.Property<DateTime>("Birthdate")
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -40,6 +40,10 @@ namespace RosaryCrusadeAPI.Migrations
                         .HasColumnType("character varying(128)");
 
                     b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("text");
 
