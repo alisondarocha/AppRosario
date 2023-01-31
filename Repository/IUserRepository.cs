@@ -6,7 +6,11 @@ namespace RosaryCrusadeAPI.Repository
     {
         void Register(User user);
 
-        Task<User> Get(Guid id);
+        void DeleteUser(User user);
+
+        Task<User> GetUser(Guid id); 
+
+        User Get(string email, string password);
 
         Task<bool> SaveChangesAsync();
     }
