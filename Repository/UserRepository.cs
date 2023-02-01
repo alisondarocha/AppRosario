@@ -18,9 +18,19 @@ namespace RosaryCrusadeAPI.Repository
             _context.Add(user);
         }
 
-        public async Task<User> Get(Guid id)
+        public async Task<User> GetUser (Guid id)
         {
-            return await _context.Users.Where(iduser => iduser.Id == id).FirstOrDefaultAsync();
+            return await _context.Users.Where(idUser => idUser.Id == id).FirstOrDefaultAsync();
+        }
+
+        public void DeleteUser(User user)
+        {
+            _context.Remove(user);
+        }
+
+        public User Get(string email, string password)
+        {
+            return _context.Users.Where(pass => pass.Password.ToLower() == password.ToLower() && pass.Email == email).FirstOrDefault();
         }
 
         public async Task<bool> SaveChangesAsync()
